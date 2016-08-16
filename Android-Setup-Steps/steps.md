@@ -8,6 +8,8 @@ Steps
 
 -open `android/local.properties`. Specify path to Android SDK: `sdk.dir=/Users/<yourUsername>/Library/Android/sdk`
 
+**Install all the things**
+
 -Install Java (`brew install Caskroom/versions/java7`)
 
 -Install Android Studio.
@@ -26,6 +28,8 @@ Execution failed for task ':app:installDebug'.
 > com.android.builder.testing.api.DeviceException: No connected devices!
 
 -Install Virtual Box (virtualbox.org) and Genymotion (genymotion.com). Genymotion creates a virtual Android emulator. Virtual Box allows you to run Android OS on your Mac.
+
+**Run all the things**
 
 -After installing genymotion, go to Settings and select the ADB tab. Select 'Use custom Android SDK tools' and enter the path specified in your local.propeties file.
 
