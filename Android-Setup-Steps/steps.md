@@ -31,7 +31,7 @@ Execution failed for task ':app:installDebug'.
 
 **Run all the things**
 
--After installing genymotion, go to Settings and select the ADB tab. Select 'Use custom Android SDK tools' and enter the path specified in your local.propeties file.
+-After installing genymotion, go to Settings and select the ADB tab. Select 'Use custom Android SDK tools' and enter the path specified in your local.properties file.
 
 -Add the actual virtual device that runs the version of Android the you have installed. (For us, Android API 23).
 
